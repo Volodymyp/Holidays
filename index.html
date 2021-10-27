@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Manhattan</title>
+	<link rel="stylesheet" href="css/iconsfont.css">
+	<link rel="stylesheet" href="css/lightgallery.css">
+	<link rel="icon" href="img/page-icon.svg">
+	<link rel="stylesheet" href="css/swiper.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/rent.css">
+</head>
+
+<body>
+	<header class="main-header">
+		<div class="header__body">
+			<a href="#" class="header__logo">
+				<img class="header__logo-img" src="img/manhattan.webp" alt="manhattan logo">
+			</a>
+			<div class="header__burger">
+				<span></span>
+			</div>
+			<nav class="header__menu">
+				<ul class="header__list">
+					<li class="header__list-item">
+						<a class="header__link" href="#home">Home</a>
+					</li>
+					<li class="header__list-item">
+						<a class="header__link" href="#about">About us</a>
+					</li>
+					<li class="header__list-item">
+						<a class="header__link" href="#services">Services</a>
+					</li>
+					<li class="header__list-item">
+						<a class="header__link" href="#pricing">Pricing</a>
+					</li>
+					<li class="header__list-item">
+						<a class="header__link" href="#contacts">Contacts</a>
+					</li>
+					<li class="header__list-item">
+						<span><i class="icon-facebook"></i></span>
+						<span><i class="icon-instagram"></i></span>
+						<span><i class="icon-youtube"></i></span>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="video-block" id="home">
+		<div class="video__inner">
+			<video class="video__media" src="video/business-teaser.mp4" autoplay muted loop></video>
+		</div>
+		<div class="video__content">
+			<div class="video__content-business">
+				<h2>Business</h2>
+				<button type="button" class="business__btn"><i class="icon-play"></i></button>
+			</div>
+			<div class="video__content-people">
+				<h2>People</h2>
+				<button type="button" class="people__btn"><i class="icon-play"></i></button>
+			</div>
+			<div class="video__hands">
+				<span class="icon-heart3"></span>
+			</div>
+		</div>
+		<div class="modal-video" id="modal-video">
+			<div id="close_modal-video">
+				<p>+</p>
+			</div>
+			<video src="" id="my-video" autoplay muted loop></video>
+		</div>
+		<div class="svg-background">
+			<p class="svg-background__thank">Thank you for visiting our service</p>
+			<svg viewBox="0 0 396.12 688">
+				<path d="M396.12 0S39.37.83 3.12 255c-44 317.09 393 77.06 393 433z"
+					pathdata:id="M398,1S41.25,1.83,5,256c-37,362,393,77.06,393,433Z;M395,3S40.25-2.17,4,252c-34,260,391,79.06,391,435Z;M396,1S42.25-.17,6,254c-34,260,389,75.06,389,431Z" />
+			</svg>
+		</div>
+		<p class="svg__heart">
+			<svg class="svg__heart-img" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="600.824px" height="600.824px"
+				viewBox="0 0 600.824 600.824" style="stroke:black;" xml:space="preserve">
+
+				<g>
+					<g>
+						<path d="M300.413,579.295l-3.838-2.256c-0.417-0.244-42.267-24.99-93.594-66.887C155.53,471.42,89.913,409.596,46.783,335.031
+			C15.751,281.351,0.011,227.687,0,175.529c-0.002-22.647,4.062-43.951,12.079-63.319c7.697-18.593,18.843-34.986,33.129-48.724
+			c28.135-27.056,66.771-41.957,108.79-41.957c25.468,0,48.491,4.055,68.428,12.051c19.008,7.624,35.286,18.838,48.382,33.333
+			c13.457,14.893,23.404,33.046,29.605,53.767c6.201-20.723,16.148-38.872,29.607-53.767c13.098-14.494,29.377-25.709,48.385-33.332
+			c19.939-7.997,42.965-12.051,68.434-12.051c42.016,0,80.648,14.901,108.783,41.957c14.287,13.738,25.434,30.132,33.131,48.725
+			c8.016,19.368,12.078,40.672,12.072,63.319c-0.01,52.166-15.752,105.83-46.795,159.502c-19.068,32.977-44.084,66.23-74.354,98.834
+			c-24.145,26.008-51.676,51.676-81.828,76.289c-51.328,41.896-93.182,66.641-93.598,66.887L300.413,579.295z M153.998,36.672
+			c-38.085,0-72.993,13.399-98.293,37.729c-26.54,25.522-40.566,60.49-40.561,101.125c0.01,49.464,15.066,100.579,44.75,151.925
+			c23.146,40.018,68.384,102.131,152.449,170.795c41.561,33.947,76.727,56.404,88.071,63.408
+			c11.345-7.002,46.513-29.461,88.074-63.408c46.4-37.898,110.512-98.295,152.436-170.795
+			c29.691-51.34,44.752-102.455,44.76-151.926c0.012-40.634-14.014-75.602-40.555-101.125
+			c-25.301-24.329-60.207-37.729-98.287-37.729c-45.842,0-81.363,13.59-105.584,40.393c-21.766,24.088-33.271,58.135-33.271,98.461
+			h-15.143c0-40.325-11.505-74.373-33.27-98.461C235.353,50.263,199.833,36.672,153.998,36.672z" />
+					</g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+				<g>
+				</g>
+			</svg>
+		</p>
+		<a href="#welcome" class="mouse-icon">
+			<span class="scroll-helper">Scroll</span>
+			<span class="wheel"></span>
+		</a>
+	</main>
+	<section class="welcome" id="welcome">
+		<div class="container">
+			<p class="abovetitle">- Welcome!</p>
+			<h3 class="welcome__title title">Find the Best Place to Prosper and Grow Your Business.</h3>
+			<p class="suptitle">Rent an office, workplace in our coworking space, or a conference hall
+				for your
+				business needs.</p>
+			<div class="welcome__services">
+				<article class="welcome__services-box">
+					<img class="welcome__services-img" src="img/icons/building.svg" alt="building">
+					<h4 class="welcome__services-title">Security Guaranty</h4>
+					<p class="welcome__services-text text">Access to the business center by fingerprints, all
+						premises
+						are under 24-hour video surveillance.</p>
+				</article>
+				<article class="welcome__services-box">
+					<img class="welcome__services-img" src="img/icons/house.svg" alt="eco-house">
+					<h4 class="welcome__services-title">Eco-Friendly</h4>
+					<p class="welcome__services-text text">We use only modern technologies. Our building is powered
+						by
+						solar panels and wind power.</p>
+				</article>
+				<article class="welcome__services-box">
+					<img class="welcome__services-img" src="img/icons/connections.svg" alt="email, wi-fi, phone">
+					<h4 class="welcome__services-title">Modern Equipment</h4>
+					<p class="welcome__services-text text">You can use climate control systems, high speed internet,
+						alarm systems, Wi-Fi throughout the building.</p>
+				</article>
+			</div>
+		</div>
+	</section>
+	<div class="about" id="about">
+		<div class="about__container container">
+			<div class="about__img">
+				<div class="about__img-rectangle"></div>
+				<img src="img/building.webp" alt="manhattan main building">
+			</div>
+			<article>
+				<p class="about__abovetitle abovetitle">- About Us</p>
+				<h3 class="about__title title">The Perfect Place to Develop Your Business and Achieve Great Results.
+				</h3>
+				<p class="about__suptitle suptitle">Our office center is located in the Boston business district. The Forum
+					center is ideal for a wide variety of businesses of any scale:</p>
+				<ul class="about__list">
+					<li class="text">branches of large holdings;</li>
+					<li class="text">local companies;</li>
+					<li class="text">startups, etc.</li>
+				</ul>
+				<p class="about-text text">
+					We offer the most comfortable conditions for your business – modern offices of
+					various sizes, equipped workplaces in our coworking spaces, unique infrastructure, and attractive rental
+					prices.
+				</p>
+				<a class="about__btn" href="#services">Our services</a>
+			</article>
+		</div>
+	</div>
+	<section class="neighbours">
+		<div class="container">
+			<p class="neighbours__abovetitle abovetitle">- Your Future Neighbours</p>
+			<h3 class="neighbours__title title">Well-Known Companies.</h3>
+			<p class="neighbours__suptitle suptitle">Get advantage of not only comfortable offices but also networking
+				options.</p>
+			<div class="slider-container">
+				<div class="neighbours__slider">
+					<div class="swiper-container neighbours__swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="img/carousel/adidas.webp" alt="adidas logo">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/carousel/apple.webp" alt="apple logo">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/carousel/boko.webp" alt="boko logo">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/carousel/bandai.webp" alt="bandai logo">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/carousel/walmart.webp" alt="walmart logo">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/carousel/ripple.webp" alt="ropple logo">
+							</div>
+						</div>
+					</div>
+					<div class="swiper-prev">
+						<p></p>
+					</div>
+					<div class="swiper-next">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="choose">
+		<div class="container choose-container">
+			<article class="choose__content">
+				<p class="choose__content-abovetitle abovetitle">- Why Choose Us</p>
+				<h3 class="choose__content-title title">Move to Forum and Leave Your Worries Behind.</h3>
+				<p class="choose__content-suptitle suptitle">
+					We provide our clients with the opportunity to work in the best conditions with
+					maximum comfort.
+				</p>
+				<p class="choose__content-text text">
+					Over the years of our operation, we have done everything possible to provide our clients with the best
+					working conditions. In the Forum business center, you will find everything you need to run your business.
+				</p>
+				<div class="choose__count">
+					<p class="choose__count-title"><span class="count" data-max="120">0</span>00m²</p>
+					<p class="choose__count-text">Free space of all offices and conference rooms available.</p>
+				</div>
+				<div class="choose__count">
+					<p class="choose__count-title"><span class="count" data-max="320">0</span>0</p>
+					<p class="choose__count-text">Employees & staffs service our renters.</p>
+				</div>
+				<div class="choose__count">
+					<p class="choose__count-title"><span class="count" data-max="115">0</span>0</p>
+					<p class="choose__count-text">Workspaces in the Forum coworking space.</p>
+				</div>
+			</article>
+			<div class="choose__counter ibg">
+				<img src="img/count-bg.webp" alt="many dots">
+				<div class="counter__content">
+					<p class="counter__content-abovetitle">- Our History</p>
+					<p class="counter__content-title" data-max="78">0</p>
+					<p class="counter__content-suptitle">Years of Operation</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section id="services" class="services">
+		<div class="container">
+			<p class="services__abovetitle abovetitle">- Services</p>
+			<h3 class="services__title title">Get Advantage of All Services That We Can Offer for You.</h3>
+			<p class="services__suptitle suptitle">
+				We have created a unique infrastructure that allows our residents to work and relax productively.
+			</p>
+			<div class="slider-container">
+				<div class="services__slider">
+					<div class="swiper-container services__swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<article class="services__slider-box">
+									<a href="img/carousel/zoom.jfif" rel="lightgallery">
+										<img class="services__slider-img" src="img/carousel/zoom.jfif"
+											alt="office with computers">
+										<button class="services__slider-btn" type="button">Discover more</button>
+									</a>
+									<h4>Modern Offices</h4>
+									<p>Rent a comfortable office of any area, from 5 to 800 square meters on any of 25 floors.
+									</p>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="services__slider-box">
+									<a href="img/carousel/projector-hall.jfif" rel="lightgallery">
+										<img class="services__slider-img" src="img/carousel/projector-hall.jfif"
+											alt="office with chairs and projector">
+										<button class="services__slider-btn" type="button">Discover more</button>
+									</a>
+									<h4>Conference Rooms</h4>
+									<p>Use conference rooms on every floor whenever you need to meet with your team, contractors,
+										or
+										partners.
+									</p>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="services__slider-box">
+									<a href="img/carousel/rest-room.jfif" rel="lightgallery">
+										<img class="services__slider-img" src="img/carousel/rest-room.jfif"
+											alt="office rest corner">
+										<button class="services__slider-btn" type="button">Discover more</button>
+									</a>
+									<h4>Covorking spaces</h4>
+									<p>We have 5 coworking spaces of various capacity on different floors of the Forum business
+										center.</p>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="services__slider-box">
+									<a href="img/carousel/cafe.jfif" rel="lightgallery">
+										<img class="services__slider-img" src="img/carousel/cafe.jfif" alt="cafe">
+										<button class="services__slider-btn" type="button">Discover more</button>
+									</a>
+									<h4>Restaurants</h4>
+									<p>Book a table at Italia Osteria, Irish O'Neil Pub or Little France. Or simply grab your
+										lunch
+										at our
+										snack
+										bar.</p>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="services__slider-box">
+									<a href="img/carousel/bicycle.jfif" rel="lightgallery">
+										<img class="services__slider-img" src="img/carousel/bicycle.jfif" alt="gym">
+										<button class="services__slider-btn" type="button">Discover more</button>
+									</a>
+									<h4>Gym and Swimming pool</h4>
+									<p>All the residents get 24/7 access to our YouSport Fitness & Wellness Center.</p>
+								</article>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-prev">
+						<p></p>
+					</div>
+					<div class="swiper-next">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="pricing" id="pricing">
+		<div class="pricing-container">
+			<article class="pricing__content">
+				<p class="abovetitle">- Pricing</p>
+				<h3 class="title">Flexible Pricing Plans for Our Clients.</h3>
+				<p class="suptitle">To rent an office in our business center, contact us in any convenient
+					way. We will make an appointment to discuss all the nuances and sign a contract.
+				</p>
+				<a class="pdf" href="img/manhattan.pdf"><i class="icon-download-file"></i> Download floors plan
+					(PDF)</a>
+			</article>
+			<article class="pricing__card">
+				<h4 class="pricing__card-title">Easy Start</h4>
+				<p class="icon-business-center"></p>
+				<p class="pricing__card-price">$10 <span>/ per square meter</span></p>
+				<ul class="pricing__card-list">
+					<li>up to 70 m2</li>
+					<li>Wi-Fi, IP telephony</li>
+					<li>monthly payment possible</li>
+					<li>fully furnished offices </li>
+				</ul>
+				<button class="pricing__card-btn open__modal-rent">Calculate office price</button>
+			</article>
+			<article class="pricing__card">
+				<h4 class="pricing__card-title">Enterprise</h4>
+				<p class="icon-business-front"></p>
+				<p class="pricing__card-price">Enterprise $30 <span>/ per square meter</span></p>
+				<ul class="pricing__card-list">
+					<li>up to 800 m2</li>
+					<li>free conference rooms</li>
+					<li>cleaning of premises twice a week</li>
+					<li>exclusive design</li>
+				</ul>
+				<button class="pricing__card-btn open__modal-rent">Calculate office price</button>
+			</article>
+		</div>
+		<div class="modal-rent" id="modal-rent">
+			<div id="close__modal-rent">+</div>
+			<div class="rent">
+				<div class="floor-container">
+					<label>Chose your rent plan:</label>
+					<select id="floor">
+						<option value="10">Easy start</option>
+						<option value="30">Enterprice</option>
+					</select>
+				</div>
+
+				<ul class="showcase">
+					<li>
+						<div class="office"></div>
+						<small>N/A</small>
+					</li>
+					<li>
+						<div class="office selected"></div>
+						<small>Selected</small>
+					</li>
+					<li>
+						<div class="office occupied"></div>
+						<small>Occupied</small>
+					</li>
+				</ul>
+
+				<div class="rent-container">
+					<div class="office__plan">
+						<img src="img/office.jpg" alt="office plan">
+					</div>
+					<div class="row">
+						<div class="room office office__room1" value="50"></div>
+						<div class="room office office__room2" value="40"></div>
+						<div class="room office office__room3 occupied" value="32"></div>
+						<div class="room office office__room4" value="65"></div>
+						<div class="room office office__room5 occupied" value="650"></div>
+						<div class="room office dance__hall" value="120"></div>
+						<div class="room office conference__room" value="110"></div>
+					</div>
+					<button class="rent__discaunt" type="button"></button>
+				</div>
+
+				<p class="text">
+					You have selected <span id="count">0</span> offices for a price of $<span id="total">0</span>
+				</p>
+				<p class="text">
+					The total area of selected offices <span id="total2">0</span>m<sup>2</sup>
+				</p>
+			</div>
+		</div>
+	</div>
+	<section class="enjoy">
+		<div class="container">
+			<p class="abovetitle">- Work, Meet, Enjoy</p>
+			<h3 class="title">A Unique Business Center With Its Own Ecosystem for Residents.</h3>
+			<p class="suptitle">We offer comfortable offices, conference rooms, and all the necessary
+				infrastructure.
+			</p>
+			<div class="enjoy__info">
+				<p class="enjoy__info-text text">In our business center, you will find everything you need to run your
+					business
+					in the best conditions. We offer offices of any size for any number of people.</p>
+				<p class="enjoy__info-text text">Our business center is conveniently located. It is situated in the Boston
+					downtown. Therefore, there will be no problems with public or personal transport.</p>
+				<p class="enjoy__info-text text">he offices have all the necessary equipment – furniture, kitchen,
+					comfortable
+					armchairs in the relax zone. Large panoramic windows provide a stunning view. Every resident of our
+					business
+					center can also use our fitness & wellness center.</p>
+				<p class="enjoy__info-text text">Climate control systems ensure the most comfortable work conditions. The
+					Forum
+					business center is equipped with modern security systems. Unauthorized entry is almost impossible. </p>
+			</div>
+		</div>
+	</section>
+	<div class="promo ibg">
+		<img src="img/coridor.jfif" alt="corridor">
+		<article class="promo__content">
+			<p class="promo__content-abovetitle abovetitle">- Promo</p>
+			<h3 class="promo__content-title">Watch Our Video.</h3>
+			<a class="promo__content-link" id="open_modal"><span class="icon-play"></span></a>
+		</article>
+	</div>
+	<div class="modal" id="modal">
+		<div id="close_modal">+</div>
+		<div class="modal__frame"><iframe id="videoFrame" src=""
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="awards">
+		<div class="awards__container container">
+			<p class="awards__abovetitle abovetitle">- Awards</p>
+			<h3 class="awards__title title">We're Doing Our Best Everyday to Serve Your Company.</h3>
+			<p class="awards__suptitle suptitle">Our business center receives significant awards every year. Thank you for
+				your
+				trust!
+			</p>
+			<div class="awards__company">
+				<p class="awards__company-year">2019</p>
+				<img src="img/awards/artred.webp" alt="art project logo">
+				<div class="awards__company-content">
+					<p>The Best Office Design Project, 1st Place</p>
+					<p>ART Project Summit, USA, 2019</p>
+				</div>
+			</div>
+			<div class="awards__company">
+				<p class="awards__company-year">2020</p>
+				<img src="img/awards/architect.webp" alt="architect logo">
+				<div class="awards__company-content">
+					<p>Trending Office Space Designs, 2nd Place</p>
+					<p>Architect Bureau, USA, 2020</p>
+				</div>
+			</div>
+			<div class="awards__company">
+				<p class="awards__company-year">2021</p>
+				<img class="ibg" src="img/awards/artyellow.webp" alt="art logo">
+				<div class="awards__company-content">
+					<p>The Safest Workplace, 1st Place</p>
+					<p>Art & Commercial Business Association, USA, 2021</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="testimonials">
+		<div class="testimonials-container container">
+			<p class="testimonials__abovetitle abovetitle">- Testimonials</p>
+			<h3 class="testimonials__title title">Enjoy Working in Comfortable Well-Equipped Offices.</h3>
+			<p class="testimonials__suptitle suptitle">We are happy that more and more companies are renting offices in our
+				building.
+			</p>
+			<div class="slider-container">
+				<div class="testimonials__slider">
+					<div class="swiper-container testimonials__swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="testimonials__slider-card">
+									<span class="icon-quotes"></span>
+									<p class="slider-card__text">
+										“We rent an office in this business center and are completely satisfied with the service
+										they
+										provide.
+										It
+										is really very comfortable here. You can enjoy an excellent working atmosphere, all
+										conditions for
+										comfortable work are created. All my teammates love our office and also use free services
+										,
+										the gym
+										especially. I'm glad we were able to find a really great place to work all together in
+										Boston."
+									</p>
+									<p class="slider-card__suptext">October 28, 2019</p>
+									<div class="slider-card__person">
+										<img class="person__img" src="img/comments/jane.webp" alt="Jane Peterson photo">
+										<div class="person__info">
+											<p class="person__info-name">Jane Peterson</p>
+											<p class="person__info-job">CEO at Whole Food Co.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="testimonials__slider-card">
+									<span class="icon-quotes"></span>
+									<p class="slider-card__text">
+										“When we were planning to launch a startup, we didn't have much budget. Therefore, finding
+										an
+										office
+										was
+										very difficult. Finally, I accidentally visited this business center and found just the
+										perfect
+										option.
+										We have been working in this business center for over a year, and it is really very
+										convenient and
+										comfortable here. We are happy to work in the Forum building."
+									</p>
+									<p class="slider-card__suptext">March 02, 2020</p>
+									<div class="slider-card__person">
+										<img class="person__img" src="img/comments/douglas.webp" alt="Douglas Petegrew photo">
+										<div class="person__info">
+											<p class="person__info-name">Douglas Petegrew</p>
+											<p class="person__info-job">PR Manager at Estra Robots..</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="testimonials__slider-card">
+									<span class="icon-quotes"></span>
+									<p class="slider-card__text">
+										“I work remotely but it's very difficult for me to work from home. Therefore, I often go
+										to
+										coworking
+										spaces. My favorite coworking space is located in the Forum business center, of course. It
+										is
+										a
+										really
+										calm and very quiet place. The Internet is very fast, there are always many free
+										workplaces,
+										and
+										the
+										price for the subscription is very attractive. I always come here with great pleasure."
+									</p>
+									<p class="slider-card__suptext">January 18, 2021</p>
+									<div class="slider-card__person">
+										<img class="person__img" src="img/comments/dean.webp" alt="Dean Simman photo">
+										<div class="person__info">
+											<p class="person__info-name">Dean Simman</p>
+											<p class="person__info-job">Marketer at Elisa Corp.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-prev">
+						<p></p>
+					</div>
+					<div class="swiper-next">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="contacts-form">
+		<div class="contacts-form-container container">
+			<article>
+				<p class="contacts-form__abovetitle abovetitle">- Contact Form</p>
+				<h3 class="contacts-form__title title">Offices, Workplaces, And Conference Rooms for Businesses of Any
+					Scale.
+				</h3>
+				<p class="contacts-form__suptitle suptitle">Feel free to contact us to learn more about the options we
+					offer:
+				</p>
+				<form class="from__inner" method="POST">
+					<div class="form-item">
+						<input type="text" id="form-name" name="name" placeholder="Input here" autocomplete="off" required>
+						<label for="form-name">Enter your full name*</label>
+					</div>
+					<div class="form-item">
+						<input type="tel" id="form-tel" name="telephone" placeholder="Input here" autocomplete="off" required>
+						<label for="form-tel">Enter your phone number*</label>
+					</div>
+					<div class="form-item">
+						<input type="email" id="form-email" name="email" placeholder="Input here" autocomplete="off" required>
+						<label for="form-email">Enter your e-mail*</label>
+					</div>
+					<div class="form-item">
+						<textarea name="message" id="form-text" placeholder="Input here" cols="30" rows="10"
+							required></textarea>
+						<label for="form-text">Type your message</label>
+					</div>
+					<button type="submit">Schedule a Visit</button>
+				</form>
+			</article>
+			<div class="contacts-form__map">
+				<iframe class="map__frame" loading="lazy"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14317.550595966697!2d4.33463123281845!3d50.85236526222391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c382f239e14b%3A0x627cc2819bce6c1a!2sManhattan%20Center!5e0!3m2!1sru!2sua!4v1612645314645!5m2!1sru!2sua"
+					width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+		</div>
+	</div>
+	<footer class="contacts" id="contacts">
+		<div class="container contacts__container">
+			<div class="contacts__top">
+				<article class="contacts__description">
+					<p class="abovetitle">- Contacts</p>
+					<h3 class="title">Your Comfortable Workplace Is Waiting. Hurry Up!</h3>
+					<p class="suptitle">
+						If you are interested in renting an office or in our business center,
+						contact us right now. Our business center has office spaces for both small and large companies.
+					</p>
+					<p class="contacts__description-text">In addition, by contacting us, you can book a workplace in one of
+						our coworking spaces. We can definitely find the best option for your team.
+					</p>
+					<p class="contacts__description-social">Follow us:
+						<a href="#"><i class="icon-facebook"></i></a>
+						<a href="#"><i class="icon-instagram"></i></a>
+						<a href="#"><i class="icon-youtube"></i></a>
+					</p>
+				</article>
+				<article class="contacts__info">
+					<h5 class="contacts__info-title">Phone</h5>
+					<a class="contacts__info-link" href="tel:+1(234)5678900">+1 (234) 567 89 00</a>
+					<h5 class="contacts__info-title">E-mail</h5>
+					<a class="contacts__info-link" href="mailto:manhattan@email.com">manhattan@email.com</a>
+					<h5 class="contacts__info-title">Address</h5>
+					<p class="contacts__info-adress">Avenue du Boulevard 21, 1210 Saint-Josse-ten-Noode, Belgium</p>
+					<h5 class="contacts__info-title">Hours</h5>
+					<div class="contacts__info-hours">
+						<p>Monday - Sunday: 7 AM - 11 PM</p>
+						<p>YouSport Fitness & Wellness Center is open 24/7</p>
+					</div>
+				</article>
+			</div>
+			<div class="footer__bottom">
+				<img class="footer__bottom-img" src="img/manhattan.webp" alt="manhattan logo">
+				<p class="footer__bottom-text text">© Created by <a href="mailto:volodymyp1989@gmail.comsdas">Volodymyp</a>
+					All rights
+					Reserved
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/lightgallery.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/rent.js"></script>
+
+	<script></script>
+
+</body>
+
+</html>
